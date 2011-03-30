@@ -1,0 +1,11 @@
+*~
+*.swp
+*.iml
+atlassian-ide-plugin.xml
+
+/.idea
+/.idea/*
+.project
+.settings
+.classpath
+target
