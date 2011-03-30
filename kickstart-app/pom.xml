@@ -128,10 +128,10 @@
     </profiles>
 
     <properties>
-        <keystore.location>../market/javart.keystore</keystore.location>
-        <keystore.password>art_jav$#</keystore.password>
-        <keystore.keypass>art_jav$#</keystore.keypass>
-        <keystore.alias>javart_android_publish_key</keystore.alias>
+        <keystore.location>../market/my.keystore</keystore.location>
+        <keystore.password>test1234</keystore.password>
+        <keystore.keypass>test1234</keystore.keypass>
+        <keystore.alias>android_publish_key</keystore.alias>
     </properties>
 
 </project>
