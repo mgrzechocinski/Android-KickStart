@@ -10,7 +10,7 @@
     <artifactId>kickstart-app</artifactId>
     <packaging>apk</packaging>
 
-    <name>${artifactId}-${version}</name>
+    <name>${project.artifactId}-${project.version}</name>
 
     <dependencies>
         <dependency>
