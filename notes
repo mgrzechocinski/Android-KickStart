@@ -1,0 +1,20 @@
+Service:
+
+- co to jest, do czego sie uzywa
+  - zrobic jakas dluga operacje bez interakcji z userem
+  - wystawic jakas funkcjonalnosc dla innych aplikacji
+- watki/procesy
+- serwisy moga byc zdalne (AIDL) i lokalne (JVM)
+- jak sie uruchamia
+  - startService/bindService z flaga BIND_AUTO_CREATE
+  - tylko jedna instancja serwisu
+  - system zawola onCreate(), reszta jest up to you
+  - jesli startService - zawola onStartCommand
+  - serwis istnieje az do stopService lub stopSelf, wtedy onDestroy()
+- START_STICKY etc --- TODO
+- proces hostujacy serwis moze byc ubity w dowolnym momencie, choc sa pewne strategie wybierania procesu do ubicia
+- serwis po ubuciu bedzie zrestartowany, strategia restartu okreslana jest przez onStartCommand()
+- serwisy lokalne (cast iBinder'a) i zdalne (AIDL)
+- 
+
+

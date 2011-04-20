@@ -1,0 +1,200 @@
+  Service com.android.phone/com.android.phone.NetworkQueryService
+nothing to dump
+
+  Service com.htc.android.psclient/com.htc.android.psclient.ObexService
+nothing to dump
+
+  Service com.htc.android.htcime/com.htc.android.htcime.HTCIMEService
+Input method service state for com.htc.android.htcime.HTCIMEService@461c7e70:
+  mWindowCreated=false mWindowAdded=true
+  mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+  Configuration={ scale=1.0 imsi=260/3 loc=pl_PL touch=3 keys=1/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=69}
+  mToken=android.os.BinderProxy@4620da60
+  mInputBinding=InputBinding{android.os.BinderProxy@46307210 / uid 9999 / pid 206}
+  mInputConnection=com.android.internal.view.InputConnectionWrapper@461e5ca0
+  mStartedInputConnection=null
+  mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+  mInputEditorInfo:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.htc.launcher fieldId=-1 fieldName=null
+    extras=null
+  mShowInputRequested=false mLastShowInputRequested=true mShowInputForced=false mShowInputFlags=0x0
+  mCandidatesVisibility=4 mFullscreenApplied=false mIsFullscreen=false mExtractViewHidden=false
+  mExtractedText:
+    text=0 chars startOffset=0
+    selectionStart=0 selectionEnd=0 flags=0x1
+  mExtractedToken=82
+  mIsInputViewShown=false mStatusIcon=0
+Last computed insets:
+  contentTopInsets=0 visibleTopInsets=0 touchableInsets=2
+
+  Service com.google.android.location/com.google.android.location.NetworkLocationService
+nothing to dump
+
+  Service android/com.android.internal.service.wallpaper.ImageWallpaper
+nothing to dump
+
+  Service com.android.providers.htcCheckin/com.android.providers.htcCheckin.htcCheckinService
+Permission Denial: can't dump htcCheckinService from pid=96, uid=1000
+
+  Service com.android.htcdialer/com.android.htcdialer.DialerService
+nothing to dump
+
+  Service com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.GenieRefreshService
+nothing to dump
+
+  Service mabilo.wallpapers/mabilo.wallpapers.RotateWallpaperService
+nothing to dump
+
+  Service com.android.stk/com.android.stk.StkAppService
+nothing to dump
+
+  Service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService
+elapsedRealtime 297854816 is time 04-20 11:47:17.322
+
+04-20 11:38:58.905 @297356399 BATTERY_STATE_CHANGED scale 100 level 52 plugged true
+04-20 11:38:58.905 @297356399 MILLIS_SINCE_BOOT 
+
+04-20 11:41:58.936 @297536430 BATTERY_STATE_CHANGED scale 100 level 53 plugged true
+04-20 11:41:58.936 @297536430 MILLIS_SINCE_BOOT 
+
+04-20 11:43:51.227 @297648721 CELL_SCAN_RESULTS [cid: 144830 lac: 10250 mcc: 260 mnc: 3 radioType: 3 signalStrength: -9999 neighbors[]]
+04-20 11:43:51.227 @297648721 MILLIS_SINCE_BOOT 
+04-20 11:43:51.228 @297648722 MILLIS_SINCE_EPOCH 
+04-20 11:43:51.228 @297648722 ALARM_RESET 0 2147768035288
+
+04-20 11:43:51.275 @297648769 BATTERY_STATE_CHANGED scale 100 level 54 plugged true
+04-20 11:43:51.275 @297648769 MILLIS_SINCE_BOOT 
+
+04-20 11:46:58.912 @297836406 BATTERY_STATE_CHANGED scale 100 level 55 plugged true
+04-20 11:46:58.912 @297836406 MILLIS_SINCE_BOOT 
+
+  Service com.hourdb.volumelocker/com.hourdb.volumelocker.VLService
+nothing to dump
+
+  Service com.android.phone/com.android.phone.BluetoothHeadsetService
+nothing to dump
+
+  Service com.ssi.gtasksbeta/com.ssi.gtasksbeta.widgets.WidgetProvider$UpdateService
+nothing to dump
+
+  Service com.mooapps.autolock/com.mooapps.autolock.ScreenBroadcastReceiverService
+nothing to dump
+
+  Service com.google.android.gsf/com.google.android.gsf.gtalkservice.service.GTalkService
+Time since service creation: 82:43:15
+aid: 345d8315174fd012
+User idle timeout in ms: 300000
+User idle: true
+Screen-off: true
+Use AutoSync setting: false
+Number of connections: 1
+
+connection #1
+------------------------
+Protocol version: 4
+RMQ: 1+2
+Host: mtalk.google.com (74.125.39.188)
+Port: 5228
+
+JID: mateusz.grzechocinski@gmail.com/androidba4a994b5305
+Device ID: android-345d8315174fd012
+Session: open
+Connected: true
+Connection state: ONLINE
+connection error: NO ERROR
+Presence: AVAILABLE
+Intended presence: AVAILABLE
+
+Last network state notification: 0/CONNECTED
+Last network available: true
+Current network available: true
+Last network state notification time: 1:46:31 ago
+
+Last connect attempt time: 01:23 ago
+No reconnect alarm set
+
+GTALK_ASYNC_CONN wakelock WakeLock{4622e770 held=false, refCount=0}
+GTALK_CONN wakelock WakeLock{4618ba88 held=false, refCount=0}
+GOOGLE_DATA_MESSAGING wakelock WakeLock{4620f1b0 held=false, refCount=0}
+ClearWakeLockTimer fired count: 0
+Connections made/attempts: 268/268
+Connection uptime: 01:19
+Last server activity: 01:19
+Last device activity: 01:19
+
+Heartbeat
+---------
+Heartbeat interval: 28:00
+heartbeat type: cell
+Current timer: 28:00
+WaitingForAck: false
+Next heartbeat alarm will trigger in 26:40
+
+Last data msg received at 11:06:13 (41:03 ago)
+
+Connection History
+------------------
+conn #(-9):
+[08:44:57: RECONNECTION_SCHEDULED, CONNECTION FAILED, netAvail=true, netstateBC=0/1, recon in 00:15] [08:45:13: CONNECTING] [08:45:16: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [08:45:16: ONLINE, AVAILABLE] [08:55:20: CONN_CLOSED, CONNECTION FAILED] 
+connection uptime: 10:03
+
+conn #(-8):
+[08:55:20: RECONNECTION_SCHEDULED, CONNECTION FAILED, netAvail=true, netstateBC=0/1, recon in 00:21] [08:55:42: CONNECTING] [08:55:45: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [08:55:45: ONLINE, AVAILABLE] [09:05:50: CONN_CLOSED, CONNECTION FAILED] 
+connection uptime: 10:05
+
+conn #(-7):
+[09:05:50: RECONNECTION_SCHEDULED, CONNECTION FAILED, netAvail=true, netstateBC=0/1, recon in 00:27] [09:06:18: CONNECTING] [09:06:22: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [09:06:22: ONLINE, AVAILABLE] [09:16:26: CONN_CLOSED, CONNECTION FAILED] 
+connection uptime: 10:04
+
+conn #(-6):
+[09:16:26: RECONNECTION_SCHEDULED, CONNECTION FAILED, netAvail=true, netstateBC=0/1, recon in 01:27] [09:17:53: CONNECTING] [09:17:57: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [09:17:57: ONLINE, AVAILABLE] [09:41:50: CONN_CLOSED, NO ERROR] 
+connection uptime: 23:53
+
+conn #(-5):
+[09:41:50: RECONNECTION_SCHEDULED, NO ERROR, netAvail=true, netstateBC=0/1, recon in 00:53] [09:41:50: CONNECTING] [09:41:52: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [09:41:52: ONLINE, AVAILABLE] [09:59:12: CONN_CLOSED, NO NETWORK] 
+connection uptime: 17:19
+
+conn #(-4):
+[09:59:12: RECONNECTION_SCHEDULED, NO NETWORK, netAvail=false, netstateBC=0/2, recon in 00:23] [09:59:35: CONNECTING] [09:59:35: RECONNECTION_SCHEDULED, NO NETWORK, netAvail=false, netstateBC=0/2] [10:00:45: CONNECTING] [10:00:58: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [10:00:58: ONLINE, AVAILABLE] [10:11:02: CONN_CLOSED, CONNECTION FAILED] 
+connection uptime: 10:03
+
+conn #(-3):
+[10:11:02: RECONNECTION_SCHEDULED, CONNECTION FAILED, netAvail=true, netstateBC=0/1, recon in 00:25] [10:11:27: CONNECTING] [10:11:30: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [10:11:30: ONLINE, AVAILABLE] [10:28:13: CONN_CLOSED, CONNECTION FAILED] 
+connection uptime: 16:42
+
+conn #(-2):
+[10:28:13: RECONNECTION_SCHEDULED, CONNECTION FAILED, netAvail=true, netstateBC=0/1, recon in 00:17] [10:28:31: CONNECTING] [10:28:34: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [10:28:34: ONLINE, AVAILABLE] [10:58:57: CONN_CLOSED, CONNECTION FAILED] 
+connection uptime: 30:23
+
+conn #(-1):
+[10:58:57: RECONNECTION_SCHEDULED, CONNECTION FAILED, netAvail=true, netstateBC=0/1, recon in 00:33] [10:59:31: CONNECTING] [10:59:34: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [10:59:34: ONLINE, AVAILABLE] [11:44:56: CONN_CLOSED, CONNECTION FAILED] 
+connection uptime: 45:21
+
+conn #(0):
+[11:44:56: RECONNECTION_SCHEDULED, CONNECTION FAILED, netAvail=true, netstateBC=0/1, recon in 00:58] [11:45:54: CONNECTING] [11:45:57: AUTHENTICATED, UNAVAILABLE, host=74.125.39.188] [11:45:57: ONLINE, AVAILABLE] 
+connection uptime: 01:19
+
+------------------------
+
+Transmission statistics: (last 12 hours)
+----------------------------------------
+
+Packet count (received/sent/total): 391 / 161 / 552
+Packet size (received/sent/total): 59281 / 27331 / 86612
+Average packet size (received/sent/total): 151 / 169 / 156
+Packet breakdown by types (type: count/count percentage/size percentage): 
+  connection:
+    heartbeat: 1 / 0% / 0%
+    login: 144 / 26% / 32%
+  data message:
+    GSYNC_TICKLE: 18 / 3% / 2%
+    com.facebook.katana: 0 / 0% / 0%
+  talk:
+    chat: 1 / 0% / 0%
+    iq: 357 / 64% / 50%
+    presence: 31 / 5% / 13%
+

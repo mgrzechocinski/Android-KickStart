@@ -11,13 +11,14 @@
                  android:theme="@android:style/Theme.Light.NoTitleBar"
                  android:debuggable="true">
 
-        <activity android:name=".StartActivity">
+        <activity android:name=".StartActivity" />
+        <activity android:name=".NameDetailsActivity"/>
+        <activity android:name=".CountActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".NameDetailsActivity"/>
     </application>
 
     <uses-sdk android:minSdkVersion="7"/>
