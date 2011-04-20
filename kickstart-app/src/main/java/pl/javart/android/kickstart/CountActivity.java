@@ -1,10 +1,12 @@
 package pl.javart.android.kickstart;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.widget.TextView;
+import pl.javart.android.kickstart.service.CountService;
 
 /**
  * @author: mgrzechocinski@javart.eu
@@ -29,6 +31,8 @@ public class CountActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.count);
 
+        startService(new Intent(getApplicationContext(), CountService.class));
+
         viewById = (TextView) findViewById(R.id.counter);
         schedule(0);
     }
@@ -40,4 +44,6 @@ public class CountActivity extends Activity {
     private void increment() {
         viewById.setText(Integer.toString(count++));
     }
+
+
 }
